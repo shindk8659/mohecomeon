@@ -1,0 +1,335 @@
+
+> test1@0.0.0 start /home/ubuntu/node-project/test1
+> nodemon app.js
+
+[33m[nodemon] 1.11.0[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching: *.*[39m
+[32m[nodemon] starting `node app.js`[39m
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+    at Error (native)
+
+npm ERR! Linux 4.4.0-1028-aws
+npm ERR! argv "/usr/bin/nodejs" "/usr/bin/npm" "start"
+npm ERR! node v6.11.1
+npm ERR! npm  v3.10.10
+npm ERR! code ELIFECYCLE
+npm ERR! test1@0.0.0 start: `nodemon app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the test1@0.0.0 start script 'nodemon app.js'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the test1 package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     nodemon app.js
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs test1
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls test1
+npm ERR! There is likely additional logging output above.
+npm ERR! Linux 4.4.0-1028-aws
+npm ERR! argv "/usr/bin/nodejs" "/usr/bin/npm" "start"
+npm ERR! node v6.11.1
+npm ERR! npm  v3.10.10
+npm ERR! path npm-debug.log.1057229193
+npm ERR! code EACCES
+npm ERR! errno -13
+npm ERR! syscall open
+
+npm ERR! Error: EACCES: permission denied, open 'npm-debug.log.1057229193'
+npm ERR!     at Error (native)
+npm ERR!  { Error: EACCES: permission denied, open 'npm-debug.log.1057229193'
+npm ERR!     at Error (native)
+npm ERR!   errno: -13,
+npm ERR!   code: 'EACCES',
+npm ERR!   syscall: 'open',
+npm ERR!   path: 'npm-debug.log.1057229193' }
+npm ERR! 
+npm ERR! Please try running this command again as root/Administrator.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /home/ubuntu/node-project/test1/npm-debug.log
+Express server listening on port 9000
+[0mGET /make [36m304 [0m14.528 ms - -[0m
+[0mGET /stylesheets/bootstrap.css [36m304 [0m2.879 ms - -[0m
+[0mGET /stylesheets/bootstrap.min.css [36m304 [0m3.781 ms - -[0m
+[0mGET /javascripts/javascript.js [36m304 [0m3.655 ms - -[0m
+[0mGET /stylesheets/font-awesome.min.css [36m304 [0m0.833 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.835 ms - -[0m
+[0mGET /javascripts/bootstrap.min.js [36m304 [0m0.655 ms - -[0m
+[0mGET /fonts/glyphicons-halflings-regular.woff2 [33m404 [0m3.215 ms - 1006[0m
+[0mGET /fonts/glyphicons-halflings-regular.woff [33m404 [0m0.993 ms - 1006[0m
+[0mGET /fonts/glyphicons-halflings-regular.ttf [33m404 [0m1.392 ms - 1006[0m
+[0mGET /make [32m200 [0m1.982 ms - 9896[0m
+[0mGET /make [32m200 [0m1.004 ms - 9896[0m
+[0mGET /stylesheets/font-awesome.min.css [32m200 [0m0.420 ms - 26698[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.765 ms - 4617[0m
+[0mGET /javascripts/bootstrap.min.js [32m200 [0m0.455 ms - 35445[0m
+[0mGET /javascripts/javascript.js [32m200 [0m2.179 ms - 10972[0m
+[0mGET /stylesheets/bootstrap.css [32m200 [0m3.147 ms - 141354[0m
+[0mGET /stylesheets/bootstrap.min.css [32m200 [0m0.969 ms - 122543[0m
+[0mGET /favicon.ico [33m404 [0m0.958 ms - 1006[0m
+[0mGET /make [32m200 [0m0.960 ms - 9896[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.381 ms - 4617[0m
+[0mGET /stylesheets/font-awesome.min.css [32m200 [0m0.417 ms - 26698[0m
+[0mGET /stylesheets/bootstrap.css [32m200 [0m0.538 ms - 141354[0m
+[0mGET /stylesheets/bootstrap.min.css [32m200 [0m0.816 ms - 122543[0m
+[0mGET /javascripts/bootstrap.min.js [32m200 [0m2.416 ms - 35445[0m
+[0mGET /javascripts/javascript.js [32m200 [0m0.464 ms - 10972[0m
+[0mGET /make [32m200 [0m0.907 ms - 9896[0m
+[0mGET /stylesheets/font-awesome.min.css [32m200 [0m0.651 ms - 26698[0m
+[0mGET /stylesheets/style.css [32m200 [0m1.223 ms - 4617[0m
+[0mGET /stylesheets/bootstrap.css [32m200 [0m2.631 ms - 141354[0m
+[0mGET /javascripts/javascript.js [32m200 [0m0.601 ms - 10972[0m
+[0mGET /javascripts/bootstrap.min.js [32m200 [0m0.658 ms - 35445[0m
+[0mGET /stylesheets/bootstrap.min.css [32m200 [0m0.440 ms - 122543[0m
+[0mGET /make [32m200 [0m1.103 ms - 9896[0m
+[0mGET /favicon.ico [33m404 [0m0.687 ms - 1006[0m
+[0mGET /stylesheets/bootstrap.css [32m200 [0m0.461 ms - 141354[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.391 ms - 4617[0m
+[0mGET /stylesheets/font-awesome.min.css [32m200 [0m2.034 ms - 26698[0m
+[0mGET /stylesheets/bootstrap.min.css [32m200 [0m0.993 ms - 122543[0m
+[0mGET /javascripts/bootstrap.min.js [32m200 [0m0.414 ms - 35445[0m
+[0mGET /javascripts/javascript.js [32m200 [0m0.968 ms - 10972[0m
+[0mGET /make?meeting_title=&meeting_explain=&meeting_location=%ED%99%8D%EB%8C%80&meeting_title=&meeting_title=&kakao= [32m200 [0m1.218 ms - 9896[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.745 ms - -[0m
+[0mGET /stylesheets/font-awesome.min.css [36m304 [0m2.277 ms - -[0m
+[0mGET /stylesheets/bootstrap.css [36m304 [0m4.304 ms - -[0m
+[0mGET /stylesheets/bootstrap.min.css [36m304 [0m4.647 ms - -[0m
+[0mGET /javascripts/javascript.js [36m304 [0m0.291 ms - -[0m
+[0mGET /javascripts/bootstrap.min.js [36m304 [0m0.195 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m3.116 ms - 1006[0m
+[0mGET /apple-touch-icon-120x120-precomposed.png [33m404 [0m3.625 ms - 1006[0m
+[0mGET /apple-touch-icon-120x120.png [33m404 [0m1.240 ms - 1006[0m
+[0mGET /apple-touch-icon.png [33m404 [0m1.794 ms - 1006[0m
+[0mGET /apple-touch-icon.png [33m404 [0m0.749 ms - 1006[0m
+[0mGET /stylesheets/font-awesome.min.css [36m304 [0m0.435 ms - -[0m
+[0mGET /javascripts/bootstrap.min.js [36m304 [0m0.453 ms - -[0m
+[0mGET /javascripts/javascript.js [36m304 [0m0.192 ms - -[0m
+[0mGET /make [32m200 [0m1.326 ms - 9896[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.281 ms - -[0m
+[0mGET /stylesheets/bootstrap.min.css [36m304 [0m0.307 ms - -[0m
+[0mGET /stylesheets/font-awesome.min.css [36m304 [0m0.189 ms - -[0m
+[0mGET /stylesheets/bootstrap.css [36m304 [0m0.300 ms - -[0m
+[0mGET /stylesheets/bootstrap.min.css [36m304 [0m1.147 ms - -[0m
+[0mGET /stylesheets/bootstrap.css [36m304 [0m2.958 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.189 ms - -[0m
+[0mGET /javascripts/bootstrap.min.js [36m304 [0m0.729 ms - -[0m
+[0mGET /javascripts/javascript.js [36m304 [0m1.751 ms - -[0m
+[0mGET /make [32m200 [0m2.002 ms - 9896[0m
+[0mGET /stylesheets/bootstrap.min.css [32m200 [0m1.723 ms - 122543[0m
+[0mGET /stylesheets/bootstrap.css [32m200 [0m1.495 ms - 141354[0m
+[0mGET /javascripts/javascript.js [32m200 [0m1.148 ms - 10972[0m
+[0mGET /stylesheets/style.css [32m200 [0m1.227 ms - 4617[0m
+[0mGET /stylesheets/font-awesome.min.css [32m200 [0m1.275 ms - 26698[0m
+[0mGET /javascripts/bootstrap.min.js [32m200 [0m0.907 ms - 35445[0m
+[0mGET /fonts/glyphicons-halflings-regular.woff2 [33m404 [0m1.460 ms - 1006[0m
+[0mGET /fonts/glyphicons-halflings-regular.woff [33m404 [0m0.771 ms - 1006[0m
+[0mGET /fonts/glyphicons-halflings-regular.ttf [33m404 [0m4.160 ms - 1006[0m
+[0mGET /fonts/glyphicons-halflings-regular.woff2 [33m404 [0m6.198 ms - 1006[0m
+[0mGET /fonts/glyphicons-halflings-regular.woff [33m404 [0m1.065 ms - 1006[0m
+[0mGET /fonts/glyphicons-halflings-regular.ttf [33m404 [0m2.668 ms - 1006[0m
+[0mGET /favicon.ico [33m404 [0m0.772 ms - 1006[0m
+[0mGET /favicon.ico [33m404 [0m0.751 ms - 1006[0m
+[0mGET /make [36m304 [0m1.986 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.349 ms - -[0m
+[0mGET /javascripts/javascript.js [36m304 [0m0.208 ms - -[0m
+[0mGET /stylesheets/font-awesome.min.css [36m304 [0m0.188 ms - -[0m
+[0mGET /stylesheets/bootstrap.css [36m304 [0m0.274 ms - -[0m
+[0mGET /javascripts/bootstrap.min.js [36m304 [0m0.179 ms - -[0m
+[0mGET /stylesheets/bootstrap.min.css [36m304 [0m0.188 ms - -[0m
+[0mGET /make [32m200 [0m0.953 ms - 9896[0m
+[0mGET /stylesheets/bootstrap.css [36m304 [0m0.290 ms - -[0m
+[0mGET /javascripts/bootstrap.min.js [36m304 [0m0.253 ms - -[0m
+[0mGET /stylesheets/bootstrap.min.css [36m304 [0m0.181 ms - -[0m
+[0mGET /stylesheets/font-awesome.min.css [36m304 [0m0.961 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.429 ms - -[0m
+[0mGET /javascripts/javascript.js [36m304 [0m0.179 ms - -[0m
+[0mGET /make [32m200 [0m0.925 ms - 9896[0m
+[0mGET /stylesheets/bootstrap.min.css [32m200 [0m0.323 ms - 122543[0m
+[0mGET /stylesheets/bootstrap.css [32m200 [0m1.315 ms - 141354[0m
+[0mGET /stylesheets/font-awesome.min.css [32m200 [0m1.934 ms - 26698[0m
+[0mGET /stylesheets/style.css [32m200 [0m1.527 ms - 4617[0m
+[0mGET /javascripts/javascript.js [32m200 [0m0.775 ms - 10972[0m
+[0mGET /javascripts/bootstrap.min.js [32m200 [0m0.846 ms - 35445[0m
+[0mGET /favicon.ico [33m404 [0m0.748 ms - 1006[0m
+[0mGET /make [36m304 [0m0.992 ms - -[0m
+[0mGET /stylesheets/bootstrap.css [36m304 [0m0.297 ms - -[0m
+[0mGET /stylesheets/bootstrap.min.css [36m304 [0m0.193 ms - -[0m
+[0mGET /stylesheets/font-awesome.min.css [36m304 [0m0.179 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.168 ms - -[0m
+[0mGET /javascripts/bootstrap.min.js [36m304 [0m0.206 ms - -[0m
+[0mGET /javascripts/javascript.js [36m304 [0m0.212 ms - -[0m
+[0mGET /make [36m304 [0m0.989 ms - -[0m
+[0mGET /stylesheets/bootstrap.css [36m304 [0m0.761 ms - -[0m
+[0mGET /javascripts/bootstrap.min.js [36m304 [0m0.183 ms - -[0m
+[0mGET /stylesheets/bootstrap.min.css [36m304 [0m0.260 ms - -[0m
+[0mGET /stylesheets/font-awesome.min.css [36m304 [0m0.189 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m2.043 ms - -[0m
+[0mGET /javascripts/javascript.js [36m304 [0m0.395 ms - -[0m
+[0mGET /make [36m304 [0m1.413 ms - -[0m
+[0mGET /stylesheets/font-awesome.min.css [36m304 [0m0.565 ms - -[0m
+[0mGET /javascripts/bootstrap.min.js [36m304 [0m0.184 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.581 ms - -[0m
+[0mGET /stylesheets/bootstrap.min.css [36m304 [0m1.598 ms - -[0m
+[0mGET /stylesheets/bootstrap.css [36m304 [0m1.592 ms - -[0m
+[0mGET /javascripts/javascript.js [36m304 [0m0.780 ms - -[0m
+[0mGET /make [36m304 [0m3.849 ms - -[0m
+[0mGET /stylesheets/bootstrap.css [36m304 [0m0.794 ms - -[0m
+[0mGET /stylesheets/bootstrap.min.css [36m304 [0m0.804 ms - -[0m
+[0mGET /stylesheets/font-awesome.min.css [36m304 [0m0.186 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.172 ms - -[0m
+[0mGET /javascripts/bootstrap.min.js [36m304 [0m0.194 ms - -[0m
+[0mGET /javascripts/javascript.js [36m304 [0m3.561 ms - -[0m
+[0mGET /make [32m200 [0m5.382 ms - 9896[0m
+[0mGET /stylesheets/bootstrap.css [32m200 [0m0.460 ms - 141354[0m
+[0mGET /javascripts/bootstrap.min.js [32m200 [0m3.460 ms - 35445[0m
+[0mGET /stylesheets/style.css [32m200 [0m3.547 ms - 4617[0m
+[0mGET /javascripts/javascript.js [32m200 [0m3.592 ms - 10972[0m
+[0mGET /stylesheets/font-awesome.min.css [32m200 [0m1.195 ms - 26698[0m
+[0mGET /stylesheets/bootstrap.min.css [32m200 [0m1.355 ms - 122543[0m
+[0mGET /make [36m304 [0m0.958 ms - -[0m
+[0mGET /stylesheets/bootstrap.css [36m304 [0m0.297 ms - -[0m
+[0mGET /javascripts/bootstrap.min.js [36m304 [0m0.342 ms - -[0m
+[0mGET /stylesheets/font-awesome.min.css [36m304 [0m0.177 ms - -[0m
+[0mGET /javascripts/javascript.js [36m304 [0m0.208 ms - -[0m
+[0mGET /stylesheets/bootstrap.min.css [36m304 [0m0.231 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.155 ms - -[0m
+[0mGET /make [36m304 [0m0.978 ms - -[0m
+[0mGET /stylesheets/bootstrap.css [36m304 [0m0.283 ms - -[0m
+[0mGET /stylesheets/bootstrap.min.css [36m304 [0m0.256 ms - -[0m
+[0mGET /stylesheets/font-awesome.min.css [36m304 [0m0.305 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.172 ms - -[0m
+[0mGET /javascripts/bootstrap.min.js [36m304 [0m0.170 ms - -[0m
+[0mGET /javascripts/javascript.js [36m304 [0m0.169 ms - -[0m
+[0mGET /make [32m200 [0m0.943 ms - 9896[0m
+[0mGET /stylesheets/bootstrap.css [32m200 [0m0.472 ms - 141354[0m
+[0mGET /stylesheets/font-awesome.min.css [32m200 [0m0.656 ms - 26698[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.752 ms - 4617[0m
+[0mGET /javascripts/bootstrap.min.js [32m200 [0m0.282 ms - 35445[0m
+[0mGET /javascripts/javascript.js [32m200 [0m0.292 ms - 10972[0m
+[0mGET /stylesheets/bootstrap.min.css [32m200 [0m0.391 ms - 122543[0m
+[0mGET /favicon.ico [33m404 [0m1.229 ms - 1006[0m
+[0mGET /make [32m200 [0m0.952 ms - 9896[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.302 ms - 4617[0m
+[0mGET /stylesheets/font-awesome.min.css [32m200 [0m0.273 ms - 26698[0m
+[0mGET /stylesheets/bootstrap.css [32m200 [0m0.480 ms - 141354[0m
+[0mGET /stylesheets/bootstrap.min.css [32m200 [0m0.413 ms - 122543[0m
+[0mGET /javascripts/bootstrap.min.js [32m200 [0m0.454 ms - 35445[0m
+[0mGET /javascripts/javascript.js [32m200 [0m0.293 ms - 10972[0m
+[0mGET /make [36m304 [0m0.956 ms - -[0m
+[0mGET /stylesheets/bootstrap.css [36m304 [0m0.291 ms - -[0m
+[0mGET /stylesheets/bootstrap.min.css [36m304 [0m0.471 ms - -[0m
+[0mGET /stylesheets/font-awesome.min.css [36m304 [0m0.462 ms - -[0m
+[0mGET /javascripts/bootstrap.min.js [36m304 [0m0.172 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.185 ms - -[0m
+[0mGET /javascripts/javascript.js [36m304 [0m2.250 ms - -[0m
+[0mGET /make [32m200 [0m1.659 ms - 9896[0m
+[0mGET /stylesheets/bootstrap.css [32m200 [0m0.450 ms - 141354[0m
+[0mGET /stylesheets/font-awesome.min.css [32m200 [0m0.273 ms - 26698[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.277 ms - 4617[0m
+[0mGET /javascripts/bootstrap.min.js [32m200 [0m0.599 ms - 35445[0m
+[0mGET /javascripts/javascript.js [32m200 [0m0.714 ms - 10972[0m
+[0mGET /stylesheets/bootstrap.min.css [32m200 [0m0.334 ms - 122543[0m
+[0mGET /favicon.ico [33m404 [0m1.893 ms - 1006[0m
+[0mGET /make [32m200 [0m0.948 ms - 9896[0m
+[0mGET /stylesheets/bootstrap.css [32m200 [0m0.484 ms - 141354[0m
+[0mGET /stylesheets/bootstrap.min.css [32m200 [0m0.328 ms - 122543[0m
+[0mGET /stylesheets/font-awesome.min.css [32m200 [0m0.324 ms - 26698[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.314 ms - 4617[0m
+[0mGET /javascripts/bootstrap.min.js [32m200 [0m0.436 ms - 35445[0m
+[0mGET /javascripts/javascript.js [32m200 [0m0.300 ms - 10972[0m
+[0mGET /make [36m304 [0m1.387 ms - -[0m
+[0mGET /make [36m304 [0m1.657 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.317 ms - -[0m
+[0mGET /stylesheets/bootstrap.css [36m304 [0m0.186 ms - -[0m
+[0mGET /stylesheets/bootstrap.min.css [36m304 [0m0.380 ms - -[0m
+[0mGET /stylesheets/font-awesome.min.css [36m304 [0m0.379 ms - -[0m
+[0mGET /javascripts/bootstrap.min.js [36m304 [0m0.167 ms - -[0m
+[0mGET /javascripts/javascript.js [36m304 [0m0.902 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m1.815 ms - 1006[0m
+[0mGET /make [36m304 [0m0.956 ms - -[0m
+[0mGET /stylesheets/bootstrap.css [36m304 [0m0.278 ms - -[0m
+[0mGET /javascripts/bootstrap.min.js [36m304 [0m0.249 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.363 ms - -[0m
+[0mGET /stylesheets/bootstrap.min.css [36m304 [0m0.366 ms - -[0m
+[0mGET /stylesheets/font-awesome.min.css [36m304 [0m0.163 ms - -[0m
+[0mGET /javascripts/javascript.js [36m304 [0m0.162 ms - -[0m
+[0mGET /make [32m200 [0m1.223 ms - 9896[0m
+[0mGET /stylesheets/font-awesome.min.css [36m304 [0m0.204 ms - -[0m
+[0mGET /javascripts/bootstrap.min.js [36m304 [0m0.173 ms - -[0m
+[0mGET /stylesheets/bootstrap.min.css [36m304 [0m0.171 ms - -[0m
+[0mGET /stylesheets/bootstrap.css [36m304 [0m0.189 ms - -[0m
+[0mGET /javascripts/javascript.js [36m304 [0m0.168 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.165 ms - -[0m
+[0mGET /stylesheets/bootstrap.css [36m304 [0m0.316 ms - -[0m
+[0mGET /stylesheets/bootstrap.min.css [36m304 [0m0.509 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.518 ms - -[0m
+[0mGET /stylesheets/font-awesome.min.css [36m304 [0m0.549 ms - -[0m
+[0mGET /javascripts/javascript.js [36m304 [0m0.330 ms - -[0m
+[0mGET /javascripts/bootstrap.min.js [36m304 [0m0.339 ms - -[0m
+[0mGET /apple-touch-icon-120x120-precomposed.png [33m404 [0m0.704 ms - 1006[0m
+[0mGET /apple-touch-icon-120x120.png [33m404 [0m0.996 ms - 1006[0m
+[0mGET /apple-touch-icon.png [33m404 [0m0.544 ms - 1006[0m
+[0mGET /apple-touch-icon.png [33m404 [0m0.558 ms - 1006[0m
+[0mGET /make [32m200 [0m2.180 ms - 9896[0m
+[0mGET /stylesheets/bootstrap.css [36m304 [0m0.283 ms - -[0m
+[0mGET /stylesheets/bootstrap.min.css [36m304 [0m0.171 ms - -[0m
+[0mGET /javascripts/bootstrap.min.js [36m304 [0m0.341 ms - -[0m
+[0mGET /stylesheets/font-awesome.min.css [36m304 [0m0.355 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.163 ms - -[0m
+[0mGET /javascripts/javascript.js [36m304 [0m0.187 ms - -[0m
+[0mGET /apple-touch-icon-120x120-precomposed.png [33m404 [0m0.737 ms - 1006[0m
+[0mGET /apple-touch-icon-120x120.png [33m404 [0m0.742 ms - 1006[0m
+[0mGET /apple-touch-icon.png [33m404 [0m0.563 ms - 1006[0m
+[0mGET /apple-touch-icon.png [33m404 [0m0.490 ms - 1006[0m
+[0mGET /make [36m304 [0m0.960 ms - -[0m
+[0mGET /stylesheets/bootstrap.css [36m304 [0m0.279 ms - -[0m
+[0mGET /javascripts/bootstrap.min.js [36m304 [0m0.174 ms - -[0m
+[0mGET /stylesheets/font-awesome.min.css [36m304 [0m0.545 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.538 ms - -[0m
+[0mGET /stylesheets/bootstrap.min.css [36m304 [0m0.542 ms - -[0m
+[0mGET /javascripts/javascript.js [36m304 [0m0.176 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m0.737 ms - 1006[0m
+[0mGET /make [32m200 [0m0.910 ms - 9896[0m
+[0mGET /stylesheets/bootstrap.css [36m304 [0m0.274 ms - -[0m
+[0mGET /javascripts/javascript.js [36m304 [0m0.259 ms - -[0m
+[0mGET /stylesheets/font-awesome.min.css [36m304 [0m0.511 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.518 ms - -[0m
+[0mGET /stylesheets/bootstrap.min.css [36m304 [0m1.001 ms - -[0m
+[0mGET /javascripts/bootstrap.min.js [36m304 [0m0.178 ms - -[0m
+[0mGET /make [32m200 [0m0.940 ms - 9896[0m
+[0mGET /stylesheets/bootstrap.css [32m200 [0m0.462 ms - 141354[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.330 ms - 4617[0m
+[0mGET /stylesheets/font-awesome.min.css [32m200 [0m0.286 ms - 26698[0m
+[0mGET /javascripts/bootstrap.min.js [32m200 [0m0.467 ms - 35445[0m
+[0mGET /stylesheets/bootstrap.min.css [32m200 [0m0.286 ms - 122543[0m
+[0mGET /javascripts/javascript.js [32m200 [0m0.354 ms - 10972[0m
+[0mGET /make [32m200 [0m0.974 ms - 9896[0m
+[0mGET /stylesheets/bootstrap.css [36m304 [0m0.193 ms - -[0m
+[0mGET /javascripts/bootstrap.min.js [36m304 [0m0.349 ms - -[0m
+[0mGET /stylesheets/bootstrap.min.css [36m304 [0m0.347 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.192 ms - -[0m
+[0mGET /stylesheets/font-awesome.min.css [36m304 [0m0.160 ms - -[0m
+[0mGET /javascripts/javascript.js [36m304 [0m0.184 ms - -[0m
+[0mGET /make [32m200 [0m1.481 ms - 9896[0m
+[0mGET /make [32m200 [0m0.911 ms - 9896[0m
+[0mGET /stylesheets/bootstrap.min.css [32m200 [0m0.281 ms - 122543[0m
+[0mGET /stylesheets/bootstrap.css [32m200 [0m0.491 ms - 141354[0m
+[0mGET /stylesheets/font-awesome.min.css [32m200 [0m1.203 ms - 26698[0m
+[0mGET /stylesheets/style.css [32m200 [0m1.263 ms - 4617[0m
+[0mGET /javascripts/javascript.js [32m200 [0m1.142 ms - 10972[0m
+[0mGET /javascripts/bootstrap.min.js [32m200 [0m1.175 ms - 35445[0m
+[0mGET /favicon.ico [33m404 [0m1.456 ms - 1006[0m
+[0mGET /make [36m304 [0m0.937 ms - -[0m
+[0mGET /stylesheets/bootstrap.css [36m304 [0m0.228 ms - -[0m
+[0mGET /stylesheets/font-awesome.min.css [36m304 [0m0.557 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.553 ms - -[0m
+[0mGET /stylesheets/bootstrap.min.css [36m304 [0m0.493 ms - -[0m
+[0mGET /javascripts/javascript.js [36m304 [0m0.351 ms - -[0m
+[0mGET /javascripts/bootstrap.min.js [36m304 [0m2.284 ms - -[0m
